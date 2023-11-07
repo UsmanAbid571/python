@@ -1,6 +1,6 @@
 print("What do you want?")
-first = input("Enter 'A' for arithmetic operations or 'B' for comparison of two numbers:  ")
-if first == "A" or "a":
+first = input("Enter 'A' for arithmetic operations or 'B' for comparison of two numbers:  ").lower()
+if first == "a":
     n1 = float(input("Enter a number: "))
     n2 = float(input("Enter another number: "))
     op = input("Enter the operator(+, -, *, /): ")
@@ -16,7 +16,7 @@ if first == "A" or "a":
         print("You entered the wrong operator")
 
 
-elif first == "b" or "B":
+elif first == "b":
      num1 = float(input("Enter a number: "))
      num2 = float(input("Enter another number: "))
      num3 = float(input("Enter another number: "))
